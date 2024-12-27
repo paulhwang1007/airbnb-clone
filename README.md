@@ -1,3 +1,3 @@
-Airbnb Clone
+# Airbnb Clone
 
-React + Vite
+Frontend replication of the Airbnb website using React and Vite
