@@ -1,0 +1,48 @@
+.filter-div {
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    border-top: 1px solid var(--grey);
+}
+
+.links-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+    opacity: 0.5;
+    border-bottom: 1px solid var(--white);
+    min-width: fit-content;
+}
+
+.links-box:hover,
+.selected-box {
+    opacity: 1;
+    border-bottom: 2px solid var(--grey);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.selected-box {
+    border-bottom: 2px solid var(--black);
+}
+
+.links-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+.links-label { 
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--font-grey);
+}
+
+.selected-label {
+    color: var(--black);
+}
